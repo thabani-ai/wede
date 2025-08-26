@@ -51,3 +51,6 @@ The project timeline is designed to ensure a structured and timely development p
 
 8. Budget
 The estimated budget for the website development and maintenance is as follows: Domain registration is projected at ZAR 500, hosting for one year at ZAR 2,000, and design and development costs are estimated at ZAR 15,000. Security and payment integration are expected to cost ZAR 3,000, while ongoing maintenance for the first year is projected at ZAR 5,000. The total estimated budget for the project is ZAR 25,500, reflecting a realistic allocation based on research and current market rates.
+
+
+Repo link: https://github.com/thabani-ai/wede.git
