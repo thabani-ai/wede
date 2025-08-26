@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Get Involved — GreenSteps Foundation</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">GreenSteps Foundation</a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="get-involved.html" aria-current="page">Get Involved</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page get-involved-page">
+    <h1>Get Involved</h1>
+
+    <!-- Volunteer sign-up form -->
+    <section id="volunteer" aria-labelledby="volunteer-title">
+      <h2 id="volunteer-title">Volunteer Sign-Up</h2>
+      <form id="volunteer-form" action="#" onsubmit="return submitVolunteerForm(event)">
+        <label for="v-name">Full name</label>
+        <input id="v-name" name="name" type="text" required />
+
+        <label for="v-email">Email</label>
+        <input id="v-email" name="email" type="email" required />
+
+        <label for="v-phone">Phone</label>
+        <input id="v-phone" name="phone" type="tel" />
+
+        <label for="v-event">Select event</label>
+        <select id="v-event" name="event">
+          <option value="clifton-cleanup">Clifton Beach Clean-up — 14 Sept 2025</option>
+          <option value="khayelitsha-planting">Khayelitsha Tree Planting — 30 Oct 2025</option>
+        </select>
+
+        <button class="btn btn-primary" type="submit">Register as Volunteer</button>
+      </form>
+      <!-- JS handles simple submission for the prototype -->
+      <p class="muted">Note: forms submit to server in a final build. For this prototype they are client-side simulated.</p>
+    </section>
+
+    <!-- Donations -->
+    <section id="donate" aria-labelledby="donate-title">
+      <h2 id="donate-title">Donate</h2>
+      <p>Support our work with a one-time donation, monthly support, or sponsor a tree (R50).</p>
+      <div class="donation-options">
+        <button class="btn btn-secondary" onclick="alert('Donation flow placeholder — integrate payment gateway (PayFast/PayGate) in final build')">Donate R100</button>
+        <button class="btn btn-secondary" onclick="alert('Donation flow placeholder')">Donate R200</button>
+        <button class="btn btn-secondary" onclick="alert('Donation flow placeholder')">Sponsor a Tree (R50)</button>
+      </div>
+    </section>
+
+    <!-- Events list -->
+    <section id="events">
+      <h2>Upcoming Events</h2>
+      <ul>
+        <li>Clifton Beach Clean-up — 14 Sept 2025 — <a href="#volunteer">Register</a></li>
+        <li>Khayelitsha Tree Planting — 30 Oct 2025 — <a href="#volunteer">Register</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>info@greensteps.org.za</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
